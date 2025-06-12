@@ -1,0 +1,56 @@
+{
+    "model_name": "NUTRILANCE Recommendation System",
+    "version": "1.0",
+    "created_date": "2025-06-12 13:26:38",
+    "models": {
+        "calorie_prediction": {
+            "type": "RandomForestRegressor",
+            "n_estimators": 200,
+            "max_depth": 10,
+            "performance": {
+                "rmse": 81.90027458717043,
+                "r2_score": 0.9777259970387941
+            }
+        },
+        "category_classification": {
+            "type": "RandomForestClassifier",
+            "n_estimators": 200,
+            "max_depth": 10,
+            "performance": {
+                "accuracy": 0.8933333333333333
+            }
+        }
+    },
+    "features": [
+        "age",
+        "gender_encoded",
+        "weight",
+        "height",
+        "activity_encoded",
+        "goal_encoded"
+    ],
+    "encoders": {
+        "gender": [
+            "Laki-laki",
+            "Perempuan"
+        ],
+        "activity_level": [
+            "Rendah",
+            "Sangat Rendah",
+            "Sangat Tinggi",
+            "Sedang",
+            "Tinggi"
+        ],
+        "goal": [
+            "Mempertahankan berat badan",
+            "Menaikkan berat badan",
+            "Menurunkan berat badan"
+        ],
+        "nutrient_category": [
+            "Rendah",
+            "Sangat Tinggi",
+            "Sedang",
+            "Tinggi"
+        ]
+    }
+}
