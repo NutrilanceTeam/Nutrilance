@@ -139,8 +139,11 @@ Nutrilance/
 
 ## 👥 Kontributor
 
-- **Rizky Surya Alfarizy** – Machine Learning & Backend  
-- *[Nama Tim Lain Jika Ada]* – Frontend / UI / Dokumentasi  
+- **(ML) MC595D5Y0266 - Rizky Surya Alfarizy - Universitas Sangga Buana YPKP Bandung** – Machine Learning
+- **(ML) MC006D5Y1248 - Muhammad Razi Al Kindi Nadra - Universitas Brawijaya** – Machine Learning
+- **(ML) MC595D5Y2083 - Wildan Septian - Universitas Sangga Buana YPKP Bandung** – Machine Learning
+- **(FEBE) FC595D5Y2018 - Tio Prayuda - Universitas Sangga Buana YPKP Bandung** – Front End Backend
+- **(FEBE) FC005D5Y2196 - Muhammad Dewa Brata - Universitas Bina Nusantara** – Front End Backend
 
 ---
 
